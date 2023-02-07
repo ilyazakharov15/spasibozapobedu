@@ -1,0 +1,53 @@
+ body {
+	 margin: 0;
+	 font-family: 'Josefin Sans', sans-serif;
+ }
+
+.header {
+	background-image: url(foto.jpg);
+	height: 132vh;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.nav-item {
+	text-decoration: none;
+	font-weight:700;
+	font-size: 14px;
+    color: green;
+	transition: color 0.3s linear;
+}
+.nav-item:hover {
+	color: red;
+}
+
+.header-line {
+	padding-top: 20px;
+	align-items: center;
+	justify-content: space-around;
+}
+
+
+
+
+
+.click {
+	display: none;
+	text-decoration: none;
+	font-weight:700;
+	font-size: 14px;
+}
+
+.block {
+	display: block;
+}
+
+button {
+	border: none;
+	outline: none;
+	background-color: transperet;
+	display: block;
+}
+
+
+
